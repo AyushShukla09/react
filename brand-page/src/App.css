@@ -1,0 +1,65 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+button {
+  all: unset;
+  padding: 6px 16px;
+  background: red;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  height: 72px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.hero {
+  max-width: 1125px;
+  height: 613px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  height: 613px;
+  width: 595px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero h1 {
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+
+.hero p {
+  font-weight: 600;
+  color: grey;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
