@@ -1,0 +1,115 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.conatiner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav{
+  padding: 0 8px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.contact-container {
+    max-width: 975px;
+    margin: 0 auto;
+}
+
+.contact-container h1{
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0 0
+}
+
+.form-conatiner {
+  max-width: 1161px;
+  height: 600px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.upper-form {
+  max-width: 472px;
+  max-height: 457px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 17px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  max-width: 472px;
+  gap: 10px;
+}
+
+button{
+  padding: 10px 18px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  min-width: 220px;
+  font-size: 16px;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.isOutline{
+  padding: 10px 18px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  min-width: 220px;
+  font-size: 16px;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  max-height: 268px;
+  gap: 17px;
+  position: relative;
+}
+
+.email-btn {
+  min-width: 472px;
+}
+
+input {
+  height: 40px;
+  padding: 0 8px;
+}
+
+label {
+  /* position: absolute; */
+  /* top: -20px; */
+}
+
+.submit-btn{
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+}
